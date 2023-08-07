@@ -1,20 +1,20 @@
 {% set name = "eumdac" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: bc320d6ca7ce9f192004de01663ffa91c98ac587638541eee80b5608b733efb8
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 2aa5891c62273cf5062fb8513cc56ca0292cc06dc6b1fdbd66f98c380bc9fb75
 
 build:
   noarch: python
   entry_points:
     - eumdac = eumdac.cli:cli
   number: 0
-  script: "{{ PYTHON }} -m pip install ."
+  script: {{ PYTHON }} -m pip install .
 
 requirements:
   host:
@@ -33,7 +33,7 @@ requirements:
 test:
   imports:
     - eumdac
-  
+
 about:
   home: https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC/overview
   license: MIT
