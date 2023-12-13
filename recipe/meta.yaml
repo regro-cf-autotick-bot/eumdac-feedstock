@@ -1,5 +1,5 @@
 {% set name = "eumdac" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2aa5891c62273cf5062fb8513cc56ca0292cc06dc6b1fdbd66f98c380bc9fb75
+  sha256: b7a8cbe7e911ba05c34363609f4be38ffb866d5837b3a42c52b00a1e3543c7f1
 
 build:
   noarch: python
