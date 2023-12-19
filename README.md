@@ -3,7 +3,7 @@ About eumdac-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eumdac-feedstock/blob/main/LICENSE.txt)
 
-Home: https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC/overview
+Home: https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC
 
 Package license: MIT
 
@@ -11,7 +11,7 @@ Summary: EUMETSAT Data Access Client
 
 Development: https://gitlab.eumetsat.int/eumetlab/data-services/eumdac
 
-Documentation: https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC/overview
+Documentation: https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC
 
 EUMDAC is the EUMETSAT Data Access Client. It provides simple access to the EUMETSAT data from a variety of
 satellite missions. As a Python library, it comes with many methods and helpers to use EUMETSATs APIs and
