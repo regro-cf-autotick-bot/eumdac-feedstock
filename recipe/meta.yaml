@@ -37,7 +37,7 @@ test:
     - eumdac
 
 about:
-  home: https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC
+  home: https://user.eumetsat.int/resources/user-guides/eumetsat-data-access-client-eumdac-guide
   license: MIT
   license_file: LICENSE.txt
   summary: EUMETSAT Data Access Client
@@ -46,7 +46,7 @@ about:
     satellite missions. As a Python library, it comes with many methods and helpers to use EUMETSATs APIs and
     services, like Data Store and Data Tailor. It also provides a variety of useful command-line utilities for data search,
     translation and processing.
-  doc_url: https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC
+  doc_url: https://user.eumetsat.int/resources/user-guides/eumetsat-data-access-client-eumdac-guide
   dev_url: https://gitlab.eumetsat.int/eumetlab/data-services/eumdac
 
 extra:
