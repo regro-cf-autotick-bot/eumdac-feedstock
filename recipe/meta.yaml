@@ -30,7 +30,7 @@ requirements:
     - setuptools
     - requests >=2.5.0
     - pyyaml
-    - urllib3 >=1.26, <2
+    - urllib3
 
 test:
   imports:
