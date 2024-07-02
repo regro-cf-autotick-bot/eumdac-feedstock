@@ -46,7 +46,7 @@ about:
     satellite missions. As a Python library, it comes with many methods and helpers to use EUMETSATs APIs and
     services, like Data Store and Data Tailor. It also provides a variety of useful command-line utilities for data search,
     translation and processing.
-  doc_url: https://usc.tools.eumetsat.int/docs/eumdac/v2.2.3/eumdac.html
+  doc_url: https://usc.tools.eumetsat.int/docs/eumdac/
   dev_url: https://gitlab.eumetsat.int/eumetlab/data-services/eumdac
 
 extra:
