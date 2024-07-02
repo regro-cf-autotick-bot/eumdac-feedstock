@@ -11,7 +11,7 @@ Summary: EUMETSAT Data Access Client
 
 Development: https://gitlab.eumetsat.int/eumetlab/data-services/eumdac
 
-Documentation: https://usc.tools.eumetsat.int/docs/eumdac/v2.2.3/eumdac.html
+Documentation: https://usc.tools.eumetsat.int/docs/eumdac/
 
 EUMDAC is the EUMETSAT Data Access Client. It provides simple access to the EUMETSAT data from a variety of
 satellite missions. As a Python library, it comes with many methods and helpers to use EUMETSATs APIs and
