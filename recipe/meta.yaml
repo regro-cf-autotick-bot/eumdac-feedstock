@@ -1,5 +1,5 @@
 {% set name = "eumdac" %}
-{% set version = "2.2.2" %}
+{% set version = "2.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 90d99d882e04df1f6a053697cfbfae47683b059e3ba6cbd444c6a34b7724295f
+  sha256: bc36fc364e2df0c5396051e8693a6cb2f0ae427e9d8869210bf4e5c86f4110bd
 
 build:
   noarch: python
@@ -46,7 +46,7 @@ about:
     satellite missions. As a Python library, it comes with many methods and helpers to use EUMETSATs APIs and
     services, like Data Store and Data Tailor. It also provides a variety of useful command-line utilities for data search,
     translation and processing.
-  doc_url: https://user.eumetsat.int/resources/user-guides/eumetsat-data-access-client-eumdac-guide
+  doc_url: https://usc.tools.eumetsat.int/docs/eumdac/v2.2.3/eumdac.html
   dev_url: https://gitlab.eumetsat.int/eumetlab/data-services/eumdac
 
 extra:
