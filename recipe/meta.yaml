@@ -6,33 +6,35 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 4f83308d39b39f1d2f660325665091cc398c0310dd85439ca3e9f5c4d2119853
 
 build:
   noarch: python
   entry_points:
     - eumdac = eumdac.cli:cli
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install .
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools
     - requests >=2.5.0
     - pyyaml
     - urllib3 >=1.26, <2
 
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - setuptools
     - requests >=2.5.0
     - pyyaml
     - urllib3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - eumdac
 
